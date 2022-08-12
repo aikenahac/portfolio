@@ -1,0 +1,34 @@
+/*
+-------------------------------
+--- Made by Aiken Tine Ahac ---
+-------------------------------
+*/
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/static/fonts/Montserrat.ttf");
+}
+
+body {
+  background-image: linear-gradient(to right, #380036, #0cbaba);
+}
+
+#head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.headshot {
+  width: 250px;
+  height: 250px;
+}
+
+.head-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fff;
+  font-family: "Montserrat";
+}
